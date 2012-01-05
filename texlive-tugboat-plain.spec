@@ -6,7 +6,7 @@
 # catalog-version 1.18
 Name:		texlive-tugboat-plain
 Version:	1.18
-Release:	1
+Release:	2
 Summary:	Plain TeX macros for TUGboat
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/tugboat
