@@ -1,16 +1,16 @@
-# revision 21720
+# revision 26611
 # category Package
-# catalog-ctan /macros/plain/contrib/tugboat
-# catalog-date 2011-03-12 15:13:24 +0100
-# catalog-license other-free
-# catalog-version 1.18
+# catalog-ctan undef
+# catalog-date undef
+# catalog-license undef
+# catalog-version undef
 Name:		texlive-tugboat-plain
-Version:	1.18
-Release:	2
-Summary:	Plain TeX macros for TUGboat
+Version:	20120809
+Release:	1
+Summary:	TeXLive tugboat-plain package
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/tugboat
-License:	OTHER-FREE
+URL:		http://tug.org/texlive
+License:	http://www.tug.org/texlive/LICENSE.TL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tugboat-plain.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tugboat-plain.doc.tar.xz
 BuildArch:	noarch
@@ -19,9 +19,7 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-The macros defined in this directory (in files tugboat.sty and
-tugboat.cmn) are used in papers written in Plain TeX for
-publication in TUGboat.
+TeXLive tugboat-plain package.
 
 %post
     %{_sbindir}/texlive.post
