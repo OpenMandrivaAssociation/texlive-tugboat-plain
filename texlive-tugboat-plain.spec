@@ -1,16 +1,17 @@
-# revision 26611
+# revision 31340
 # category Package
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
+# catalog-ctan /macros/plain/contrib/tugboat
+# catalog-date 2013-08-03 12:08:10 +0200
+# catalog-license other-free
+# catalog-version 1.21
 Name:		texlive-tugboat-plain
-Version:	20120809
+Epoch:		1
+Version:	1.21
 Release:	1
-Summary:	TeXLive tugboat-plain package
+Summary:	Plain TeX macros for TUGboat
 Group:		Publishing
-URL:		http://tug.org/texlive
-License:	http://www.tug.org/texlive/LICENSE.TL
+URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/tugboat
+License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tugboat-plain.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tugboat-plain.doc.tar.xz
 BuildArch:	noarch
@@ -19,7 +20,9 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-TeXLive tugboat-plain package.
+The macros defined in this directory (in files tugboat.sty and
+tugboat.cmn) are used in papers written in Plain TeX for
+publication in TUGboat.
 
 %post
     %{_sbindir}/texlive.post
@@ -47,20 +50,3 @@ TeXLive tugboat-plain package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Aug 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120809-1
-+ Revision: 813132
-- Update to latest release.
-
-* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.18-2
-+ Revision: 757156
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.18-1
-+ Revision: 719815
-- texlive-tugboat-plain
-- texlive-tugboat-plain
-- texlive-tugboat-plain
-
