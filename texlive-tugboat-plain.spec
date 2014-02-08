@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-tugboat-plain
 Version:	20120809
-Release:	1
+Release:	2
 Summary:	TeXLive tugboat-plain package
 Group:		Publishing
 URL:		http://tug.org/texlive
