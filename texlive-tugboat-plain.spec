@@ -1,7 +1,7 @@
 Name:		texlive-tugboat-plain
 Epoch:		1
-Version:	63386
-Release:	2
+Version:	67347
+Release:	1
 Summary:	Plain TeX macros for TUGboat
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/tugboat
