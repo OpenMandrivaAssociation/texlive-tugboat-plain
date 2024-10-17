@@ -4,7 +4,7 @@ Version:	70960
 Release:	1
 Summary:	Plain TeX macros for TUGboat
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/tugboat
+URL:		https://www.ctan.org/tex-archive/macros/plain/contrib/tugboat
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tugboat-plain.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tugboat-plain.doc.r%{version}.tar.xz
