@@ -1,6 +1,6 @@
 Name:		texlive-tugboat-plain
 Epoch:		1
-Version:	70960
+Version:	72675
 Release:	1
 Summary:	Plain TeX macros for TUGboat
 Group:		Publishing
